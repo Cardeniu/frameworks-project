@@ -19,15 +19,11 @@ export default function LayoutClient({ children }) {
     const hidden = hiddenPaths.includes(pathName);
 
     return (
-        <div style={{
-            minHeight: "100vh",
-            display: "flex",
-            flexDirection: "column"
-        }}>
+        <div>
 
             {!hidden && <Header />}
 
-            <main style={{ flex: 1 }}>
+            <main>
                 {children}
             </main>
 

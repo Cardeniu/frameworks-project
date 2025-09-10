@@ -1,6 +1,6 @@
 export default function Man() {
   return (
-    <div>
+    <div className="">
       <h1>Hombre</h1>
     </div>
   );
