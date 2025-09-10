@@ -11,7 +11,7 @@ import {
 const hiddenPaths = ['/Login'];
 
 
-export default function LayoutClient({ childern }) {
+export default function LayoutClient({ children }) {
 
     // creamos una constante para manejar el path
     const pathName = usePathname();
@@ -28,7 +28,7 @@ export default function LayoutClient({ childern }) {
             {!hidden && <Header />}
 
             <main style={{ flex: 1 }}>
-                {childern}
+                {children}
             </main>
 
 
