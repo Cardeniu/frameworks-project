@@ -7,7 +7,7 @@ const cart = '/cart.png';
 export default function Header() {
     return (
         <header className="w-full border-b border-gray-200 bg-white flex justify-between absolute top-0 left-0 right-0 items-center h-20">
-            <Image src={logo} width={60} height={70} className='ml-10' alt='logo'/>
+            <Image src={logo} width={60} height={70} className='ml-10' alt='logo' />
             <nav className='flex justify-between items-center text-black gap-10 w-80 text-400 font-medium'>
                 <Link href={'/'} className='text-3x1 hover:font-bold'>
                     Inicio
@@ -24,7 +24,7 @@ export default function Header() {
                     Iniciar sesion
                 </Link>
                 <Link href="/Cart">
-                    <Image src={cart} width={45} height={30} alt='Carrito de compras' className=''/>
+                    <Image src={cart} width={45} height={30} alt='Carrito de compras' className='' />
                 </Link>
             </div>
         </header>
